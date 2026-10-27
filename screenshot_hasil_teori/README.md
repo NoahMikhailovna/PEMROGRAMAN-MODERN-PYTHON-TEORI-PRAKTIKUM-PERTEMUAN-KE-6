@@ -1,7 +1,7 @@
 # Screenshot Hasil Teori
 
-Folder terpisah berisi screenshot output saat contoh kode teori dijalankan
-(`python teori/teori_N_*.py`), satu screenshot per soal teori.
+Folder terpisah berisi screenshot hasil pengerjaan soal teori,
+satu screenshot per soal teori.
 Versi `.png` dari semua screenshot ini ada di bundle ZIP yang dibagikan di chat;
 di GitHub folder ini berisi versi `.svg` dengan isi yang sama persis.
 

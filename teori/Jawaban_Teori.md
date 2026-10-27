@@ -30,8 +30,6 @@ pajak2 = hitung_pajak(harga=100000)        # argumen keyword, tarif memakai defa
 | Contoh | `harga`, `tarif` | `100000`, `0.11` |
 | Jumlah diketahui | Saat fungsi dibuat | Saat fungsi dipakai |
 
-> Contoh yang bisa dijalankan: `teori_1_parameter_vs_argumen.py`
-
 ---
 
 ## 2. Aturan LEGB dalam Scope Python
@@ -65,8 +63,6 @@ print(x)                     # -> global
 
 Catatan: menimpa nama built-in (misalnya `len = 5`) disebut *shadowing* dan harus dihindari karena `len()` setelah itu tidak bisa dipakai lagi.
 
-> Contoh yang bisa dijalankan: `teori_2_legb_scope.py`
-
 ---
 
 ## 3. Pitfall Objek Mutable sebagai Default Parameter
@@ -97,8 +93,6 @@ print(tambah_item("apel"))    # ['apel']
 print(tambah_item("jeruk"))   # ['jeruk']  <- benar, list baru setiap panggilan
 ```
 
-> Contoh yang bisa dijalankan: `teori_3_mutable_default_pitfall.py`
-
 ---
 
 ## 4. Perbedaan Module dan Package, serta Peran `__init__.py`
@@ -120,7 +114,7 @@ print(tambah_item("jeruk"))   # ['jeruk']  <- benar, list baru setiap panggilan
 3. **Mengontrol ekspor** — variabel `__all__` menentukan nama apa saja yang diimpor saat `from package import *`.
 4. **Mempermudah import** — nama yang didefinisikan/diimpor di `__init__.py` bisa diakses langsung dari package, misalnya `from sistem_informasi import MahasiswaService` tanpa menyebut subpackage-nya.
 
-> Contoh yang bisa dijalankan: `teori_4_module_vs_package.py`, dan contoh package nyata ada di Soal Praktik 4 (`praktikum/soal4_package/sistem_informasi/`).
+> Contoh package nyata ada di Soal Praktik 4 (`praktikum/soal4_package/sistem_informasi/`).
 
 ---
 
@@ -140,4 +134,3 @@ Lambda adalah fungsi anonim satu ekspresi: `lambda parameter: ekspresi`. Hasil e
 2. **Fungsi yang dipakai ulang di banyak tempat dan perlu nama yang jelas** — nama fungsi yang deskriptif membuat kode dan pesan error (`traceback`) mudah dipahami.
 3. **Fungsi yang butuh dokumentasi dan pengujian** — `def` bisa memiliki *docstring*, anotasi tipe, dekorator, dan diuji dengan unit test; lambda anonim tidak bisa didokumentasikan dengan baik. Lambda juga tidak cocok untuk rekursi dan logika dengan penanganan error (`try/except`).
 
-> Contoh yang bisa dijalankan: `teori_5_lambda_vs_def.py`

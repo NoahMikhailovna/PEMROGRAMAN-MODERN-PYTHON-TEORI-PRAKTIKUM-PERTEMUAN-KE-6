@@ -8,8 +8,7 @@
 ## Isi Repository
 
 ### 1. Teori — folder `teori/`
-- `Jawaban_Teori.md` — jawaban tertulis 5 soal teori (parameter vs argumen, LEGB, pitfall mutable default, module vs package, lambda vs def).
-- `teori_1_parameter_vs_argumen.py` s.d. `teori_5_lambda_vs_def.py` — contoh kode yang bisa dijalankan untuk membuktikan setiap jawaban teori.
+- `Jawaban_Teori.md` — jawaban tertulis 5 soal teori (parameter vs argumen, LEGB, pitfall mutable default, module vs package, lambda vs def). Soal teori dijawab tertulis, tanpa file kode terpisah.
 
 ### 2. Praktikum — folder `praktikum/`
 | Soal | Folder / File | Keterangan |
@@ -26,7 +25,6 @@ Screenshot output saat contoh kode teori dijalankan, satu file per soal teori.
 ## Cara Menjalankan
 
 ```bash
-python teori/teori_1_parameter_vs_argumen.py
 python praktikum/soal1_hitung_statistik.py
 python praktikum/soal2_validasi_data.py
 python praktikum/soal3_module/main.py
