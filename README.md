@@ -19,8 +19,8 @@
 | 4 | `soal4_package/` | Package `sistem_informasi` (subpackage `model`, `service`, `utils`) — CRUD Mahasiswa in-memory + `main.py` demo |
 | 5 | `soal5_api/` | `analisis_api.py` — ambil data JSONPlaceholder pakai `requests`, proses dengan lambda + `map`/`filter`/`sorted`, simpan hasil ke `hasil_analisis.json` |
 
-### 3. Screenshot Hasil Teori — folder `screenshot_hasil_teori/`
-Screenshot output saat contoh kode teori dijalankan, satu file per soal teori.
+### 3. Screenshot Hasil Praktikum — folder `screenshot_hasil_praktikum/`
+Screenshot output saat kode praktikum dijalankan, satu file per soal praktikum (soal 1-5).
 
 ## Cara Menjalankan
 
