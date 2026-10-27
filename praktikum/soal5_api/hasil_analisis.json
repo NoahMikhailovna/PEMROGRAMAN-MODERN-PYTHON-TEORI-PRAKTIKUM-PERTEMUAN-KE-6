@@ -1,0 +1,146 @@
+{
+  "sumber": "https://jsonplaceholder.typicode.com/posts",
+  "total_post": 100,
+  "total_user": 10,
+  "rata_rata_panjang_judul_karakter": 39.52,
+  "judul_terpanjang_karakter": 79,
+  "judul_terpendek_karakter": 12,
+  "jumlah_post_judul_di_atas_60_karakter": 8,
+  "jumlah_post_user_id_1": 10,
+  "top_5_judul_terpanjang": [
+    {
+      "id": 50,
+      "judul": "repellendus qui recusandae incidunt voluptates tenetur qui omnis exercitationem",
+      "panjang": 79,
+      "penulis": "Chelsey Dietrich"
+    },
+    {
+      "id": 43,
+      "judul": "eligendi iste nostrum consequuntur adipisci praesentium sit beatae perferendis",
+      "panjang": 78,
+      "penulis": "Chelsey Dietrich"
+    },
+    {
+      "id": 60,
+      "judul": "consequatur placeat omnis quisquam quia reprehenderit fugit veritatis facere",
+      "panjang": 76,
+      "penulis": "Mrs. Dennis Schulist"
+    },
+    {
+      "id": 84,
+      "judul": "optio ipsam molestias necessitatibus occaecati facilis veritatis dolores aut",
+      "panjang": 76,
+      "penulis": "Glenna Reichert"
+    },
+    {
+      "id": 1,
+      "judul": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+      "panjang": 74,
+      "penulis": "Leanne Graham"
+    }
+  ],
+  "post_per_user": [
+    {
+      "userId": 1,
+      "nama": "Leanne Graham",
+      "jumlah_post": 10
+    },
+    {
+      "userId": 2,
+      "nama": "Ervin Howell",
+      "jumlah_post": 10
+    },
+    {
+      "userId": 3,
+      "nama": "Clementine Bauch",
+      "jumlah_post": 10
+    },
+    {
+      "userId": 4,
+      "nama": "Patricia Lebsack",
+      "jumlah_post": 10
+    },
+    {
+      "userId": 5,
+      "nama": "Chelsey Dietrich",
+      "jumlah_post": 10
+    },
+    {
+      "userId": 6,
+      "nama": "Mrs. Dennis Schulist",
+      "jumlah_post": 10
+    },
+    {
+      "userId": 7,
+      "nama": "Kurtis Weissnat",
+      "jumlah_post": 10
+    },
+    {
+      "userId": 8,
+      "nama": "Nicholas Runolfsdottir V",
+      "jumlah_post": 10
+    },
+    {
+      "userId": 9,
+      "nama": "Glenna Reichert",
+      "jumlah_post": 10
+    },
+    {
+      "userId": 10,
+      "nama": "Clementina DuBuque",
+      "jumlah_post": 10
+    }
+  ],
+  "ringkasan_10_post_pertama": [
+    {
+      "id": 1,
+      "judul": "sunt aut facere repellat provident occaecati excep",
+      "penulis": "Leanne Graham"
+    },
+    {
+      "id": 2,
+      "judul": "qui est esse",
+      "penulis": "Leanne Graham"
+    },
+    {
+      "id": 3,
+      "judul": "ea molestias quasi exercitationem repellat qui ips",
+      "penulis": "Leanne Graham"
+    },
+    {
+      "id": 4,
+      "judul": "eum et est occaecati",
+      "penulis": "Leanne Graham"
+    },
+    {
+      "id": 5,
+      "judul": "nesciunt quas odio",
+      "penulis": "Leanne Graham"
+    },
+    {
+      "id": 6,
+      "judul": "dolorem eum magni eos aperiam quia",
+      "penulis": "Leanne Graham"
+    },
+    {
+      "id": 7,
+      "judul": "magnam facilis autem",
+      "penulis": "Leanne Graham"
+    },
+    {
+      "id": 8,
+      "judul": "dolorem dolore est ipsam",
+      "penulis": "Leanne Graham"
+    },
+    {
+      "id": 9,
+      "judul": "nesciunt iure omnis dolorem tempora et accusantium",
+      "penulis": "Leanne Graham"
+    },
+    {
+      "id": 10,
+      "judul": "optio molestias id quia eum",
+      "penulis": "Leanne Graham"
+    }
+  ]
+}
